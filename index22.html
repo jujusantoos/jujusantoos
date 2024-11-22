@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal de exemplo">
+  <title>Sobre a julia</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/eu.ico"
+  <!-- Link para CSS adicional -->
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .hero {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="hero text-center">
+    <img src="img/eu.ico" alt="Foto de perfil" class="profile-img mb-3">
+    <h1>Julia dos Santos Ferreira</h1>
+    <p class="lead">Estudante | cursando tecnologia | academia</p>
+    <div>
+      <a href="#about" class="btn btn-primary">Sobre Mim</a>
+      <a href="#projects" class="btn btn-outline-secondary">Projetos</a>
+    </div>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section id="about" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! meu nome é Julia tenho 16 anos curso tecnologia basica na afesu senai
+          amo fazer academia estou cursando o segundo ano do ensino médio e tenho duas melhores amigas
+          sou bem extrovertida e bem comunicativa, e minha cor favorita é roxa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="container py-5 bg-light">
+    <div class="text-center mb-5">
+      <h2>Meus cursos</h2>
+      <p class="lead">Confira alguns dos cursos que foram concluidos:</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/power bi.jpg" class="card-img-top" alt="Projeto 1" >
+          <div class="card-body">
+            <h5 class="card-title">Power bi</h5>
+            <p class="card-text">É uma coleção de serviços softwares aplicativos e conectores que trabalham 
+                para transformarem suas fontes de dados nao relacionados em informaç~oes coerentes
+           </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/google cloud.webp" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Google cloud</h5>
+            <p class="card-text">reúne inovações de todo o Google para ajudar os clientes a fazer uma
+                 transformação digital usando a IA pronta para o futuro.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/computador.jpg" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Operador de micro computador</h5>
+            <p class="card-text">cuida de potencialidades do computador, para que possam ser colocados a serviço da 
+                realização dos objetivos do cliente ou empregador..</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="container py-5">
+    <div class="text-center mb-5">
+      <h2>Contato</h2>
+      <p class="lead">Gostou do que viu? Entre em contato!</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Seu Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Julia dos Santos Ferreira">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Seu Email</label>
+            <input type="email" class="form-control" id="email" placeholder="jujusantoosferr@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="se gostou do nosso conteudo esses e o email para entrar em contato e saber mais!"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>&copy; 2024 Julia. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Link para o Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
